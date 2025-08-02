@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+
+    font-weight: bold;
+    color: #000000;
+}
+.list1{
+    font-size: 20px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none !important; 
+}
+.d1>a{
+    color: black;
+}
+.reg{
+    background-color: #0C132C;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.ga{
+    color: #F46B5B;
+    
+}
+.search_br{
+    display: flex;
+    align-items: center;
+}
+.bi-search{
+    background-color: #0C132C;
+    color: white;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.search{
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #D0D0D240;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1{
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 30px;
+    margin: 20px;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img1{
+    height: 90vh;
+}
+.home{
+    /* background-image: url("img1.avif");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    height: 100vh; */
+}
+.about{
+    background-color: #010A29CC;
+    padding: 40px;
+    color: white;
+}
+.title_clss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+.para{
+    width: 35rem;
+    font-size: 20px;
+}
+.cards_collection{
+    display: flex;
+    
+    gap: 20px;
+    color: black;
+    margin: 50px;
+}
+.card-img-top{
+    height: 200px;
+    width: 20vw;
+}
+.swiper {
+  width: 70vw;
+  height: auto; 
+}
+.swiper-button-next, .swiper-button-prev{
+        background-color: white;
+    border-radius: 50%;
+    padding: 30px;
+    color: black;
+}
+.swiper-slide{
+    width: 20vw !important;
+}
+.profile{
+    background-color: #000000;
+    padding: 50px;
+    color: white;
+    margin: auto;
+}
+.div_class{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 60px;
+    align-items: center;
+}
+.checker{
+    border-radius: 40px;
+    height: 40vh;
+    width: 30vw;
+}
+.div_class3{
+    letter-spacing: 1px;
+    width: 40%;
+}
+.p1{
+    width: 90%;
+    font-size: 50px;
+}
+.div_class1{
+    flex: 2;
+}
+.white{
+    background-color: white;
+    border-radius: 30px;
+    color: #000000;
+    padding: 30px;
+    width: 30%;
+}
+.bi-check{
+    background-color: #27187E;
+    border-radius: 80%;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    /* border-top-left-radius: ; */
+}
+.hr_tag{
+    background-color: white;
+    height: 2px;
+}
+.wide{
+    /* width: 500px;
+    height: 300px; */
+    margin: 10px;
+    border-radius: 30px;
+}
+.shrt{
+    /* width: 300px;
+    height: 300px; */
+    margin: 10px;
+    border-radius: 30px;
+}
+.gall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.special{
+    background-image: url(checker.png);
+    height: 75vh;
+    background-size: 90%; 
+}
+.bg_col{
+    background-color: #27187E4D;
+    height: 75vh;
+}
+.cont{
+    margin-left: 90px;
+    padding-top: 40px;
+    background-color: #000000;
+    color: white;
+    display: inline-block;
+    align-items: flex-start;
+    height: 75vh;
+    width: 45%;
+}
+.p2{
+    font-size: 60px;
+}
+.f45px{
+    font-size: 45px;
+    font-weight: 600;
+}
+.galary{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    
+}
+.card_class{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.table1{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table1>ul>li>a{
+    color: white !important;
+}
+.card1{
+    background-color: #010A29;
+    color: white;
+    padding: 40px;
+    border-radius: 30px;
+    /* height: 40vh;*/
+    width: 25%; 
+    align-content: center;
+}
+.div_class2{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    padding: 10px;
+}
+.jhon{
+    font-weight: 600;
+}
+.capital{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.capital1{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 500;  
+}
+.itaclic{
+    font-style: italic;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.learn_more{
+    background-color: #6E6E6E;
+    padding: 0px 0px 0px 90px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.container2{
+    margin: 50px 120px 50px 50px;
+    color: white;
+    
+}
+.img2{
+    width: 130%;
+    
+}
+.container3{
+    background-color: #010A29;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+/* .div_class4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+} */
+.comp_logo{
+    height: 7vh;
+    width: 14vw;
+    margin: 5px;
+}
+.div_class4{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+.social_media{
+    display: flex;
+    gap: 10px;
+}
+ .div_class5{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    /*margin: auto;*/
+    align-content: center; 
+}
+.Quick_Links>ol{
+    letter-spacing: 2px;
+}
+.info{
+    width: 20%;
+}
+.copy_right{
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    .d1{
+        display: none;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    /* .title_clss{
+        display: flex;
+        flex-direction: column;
+    } */
+     .para{
+        width: auto;
+     }
+     .checker{
+        width: fit-content;
+     }
+     
+     .p1{
+        font-size: 35px;
+        width: auto;
+     }
+     .white{
+        width: auto;
+     }
+     .div_class3{
+        width: auto;
+     }
+     .galary{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+
+     }
+     .row_div{
+        padding: 0px !important;
+        justify-content: center;
+        align-items: center;
+     }
+     .div_class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .profile{
+        padding: 10px;
+        margin: auto;
+     }
+     .cont{
+        width: auto;
+        margin: 0px;
+        height: 100%;
+     }
+     .special{
+        height: 100%;
+     }
+     .bg_col{
+        height: 100%;
+     }
+     .btn-dark{
+        width: max-content !important;
+     }
+     .card_class{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+     }
+     .card1{
+        width: auto;
+     }
+     .learn_more{
+        padding: 10px;
+        display: flex;
+     }
+     .container2{
+        margin: 20px;
+     }
+     .img2{
+        display: none;
+     }
+     .div_class4:first-child{
+        width: fit-content;
+        gap: 10px;
+        flex-direction: column;
+         /* display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px; */
+     }
+     .div_class4:last-child{
+        display: none;
+     }
+     .comp_logo{
+        width: auto;
+        height: auto;
+     }
+     .container3{
+        padding: 20px;
+     }
+     .comp1{
+        display: flex;
+        justify-content: center;
+     }
+     .div_class5{
+            align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    width: auto;
+     }
+     .para1{
+        width: 80vw;
+        
+     }
+     .cards_collection{
+    display: flex;
+    
+    gap: 20px;
+    color: black;
+    margin: 50px;
+}
+.card-img-top{
+    height: 200px;
+    width: 20vw;
+}
+.swiper {
+  width: 70vw;
+  height: auto; 
+}
+.swiper-button-next, .swiper-button-prev{
+        background-color: white;
+    border-radius: 50%;
+    padding: 30px;
+    color: black;
+}
+.swiper-slide{
+    width: 50vw !important;
+}
+     
+     
+     
+}
+
